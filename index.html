@@ -10,24 +10,32 @@
     <h2>This is HTMl forms tutorial</h2>
     <form action="backend.php">
         <div>
-            Name: <input type="text">
+           <label for="name">
+                Name: <input id="name" type="text">
+           </label>
         </div>
          <br>
         <div>
-            Role: <input type="text">
-        </div>
+            <label for="role">
+                Role: <input id="role" type="text">
+            </label>
+         </div>
         <br>
         <div>
           date of birth:<input type="date" name="myDob">  
         </div>
         <br>
         <div>
-           photoId:<input type="text" name="myID"> 
-        </div>
+            <label for="photoId">
+                photoId:<input id="photoId" type="text" name="myID">
+            </label>
+         </div>
         <br>
         <div>
-            Email:<input type="email" name="myEmail">
-        </div>
+            <label for="email">
+                Email:<input id="email" type="email" name="myEmail">
+            </label>
+         </div>
         <br>
     
         <div>
@@ -35,15 +43,24 @@
         </div>
         <br>
         <div>
-            Bonus: <input type="Number" name="mybonus">
-        </div>
+            <label for="bonus">
+                Bonus: <input id="bonus" type="Number" name="mybonus">
+            </label>
+         </div>
         <br>
         <div>
             Are you eligible?: <input type="checkbox" name="myeligibility">
         </div>
         <br>
         <div>
-            Gender: male<input type="radio" name="mygender">Female<input type="radio" name="mygender">
+            Gender: 
+            <label for="male">
+                Male<input id="male" type="radio" name="mygender" value="male">
+            </label>
+            <label for="female">
+                Female<input id="female" type="radio" name="mygender" value="female">
+            </label>
+            
         </div>
         <br>
         <div>
